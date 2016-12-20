@@ -1,0 +1,17 @@
+Package: armatrices
+Version: 0.1
+Date: 2016-12-19
+Title: Build AR Matrcies and Simulated Data
+Authors@R: c(person("Neal", "Marquez", role = c("aut", "cre"),
+                     email = "nmarquez@uw.edu"))
+Author: Neal Marquez [aut, cre],
+Maintainer: Neal Marquez <nmarquez@uw.edu>
+Depends:
+    R (>= 3.2.0)
+Suggests:
+    MASS
+Description: Builds covariances matrices for various AR processes. Additionally
+    allows to simulate data from these process.
+License: GPL (>= 2)
+URL: https://www.r-project.org
+RoxygenNote: 5.0.1
